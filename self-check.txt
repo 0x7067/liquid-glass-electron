@@ -1,0 +1,28 @@
+$ node scripts/build.mjs && node scripts/electron.mjs test/web/run.mjs --self-check
+
+electron
+caught defaults      mean 5.42  rim 10.81  outliers 3.12%
+caught capsule       mean 11.84  rim 18.88  outliers 10.71%
+caught circle        mean 5.56  rim 8.30  outliers 1.18%
+caught nofringe      mean 5.30  rim 12.96  outliers 2.94%
+caught unsmoothed    mean 12.43  rim 28.93  outliers 9.97%
+caught strongfringe  mean 8.92  rim 21.74  outliers 10.99%
+caught dome          mean 19.85  rim 3.77  outliers 18.67%
+caught applelens     mean 3.06  rim 5.35  outliers 0.00%
+caught switchlens    mean 2.14  rim 2.32  outliers 0.00%
+caught frost         mean 4.88  rim 14.47  outliers 2.44%
+caught regular       mean 0.78  rim 2.63  outliers 0.00%
+caught clear         mean 0.70  rim 2.15  outliers 0.00%
+caught regulardark   mean 0.88  rim 3.57  outliers 0.00%
+caught smallregular  mean 1.43  rim 2.01  outliers 0.00%
+caught colour        mean 11.29  rim 29.20  outliers 11.22%
+caught opacity       mean 2.76  rim 5.43  outliers 0.39%
+caught strength      mean 3.71  rim 11.28  outliers 2.10%
+caught squircle      mean 9.54  rim 9.54  outliers 8.62%
+caught path          mean 7.66  rim 7.66  outliers 3.20%
+caught surface       mean 8.16  rim 14.58  outliers 4.68%
+caught fitted        mean 5.25  rim 10.65  outliers 2.76%
+caught contained     mean 8.70  rim 21.40  outliers 6.02%
+22 of 22 cases caught the glass bent wrong
+
+all passed

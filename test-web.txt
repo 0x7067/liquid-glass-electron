@@ -1,0 +1,81 @@
+$ node scripts/build.mjs && node scripts/electron.mjs test/web/run.mjs
+
+electron
+ok   defaults      mean 1.89  rim 1.79  outliers 0.02%
+ok   capsule       mean 2.04  rim 1.75  outliers 0.15%
+ok   circle        mean 1.85  rim 2.13  outliers 0.00%
+ok   nofringe      mean 1.89  rim 1.80  outliers 0.03%
+ok   unsmoothed    mean 4.96  rim 5.93  outliers 1.91%
+ok   strongfringe  mean 2.75  rim 3.27  outliers 0.55%
+ok   dome          mean 2.52  rim 1.47  outliers 0.23%
+ok   applelens     mean 0.95  rim 1.24  outliers 0.00%
+ok   switchlens    mean 1.29  rim 1.34  outliers 0.00%
+ok   frost         mean 1.14  rim 1.53  outliers 0.01%
+ok   regular       mean 0.51  rim 0.55  outliers 0.00%
+ok   clear         mean 0.50  rim 0.89  outliers 0.00%
+ok   regulardark   mean 0.48  rim 0.51  outliers 0.00%
+ok   smallregular  mean 1.04  rim 1.22  outliers 0.00%
+ok   colour        mean 3.01  rim 3.39  outliers 1.15%
+ok   opacity       mean 1.03  rim 1.00  outliers 0.00%
+ok   strength      mean 1.11  rim 1.34  outliers 0.00%
+ok   squircle      mean 2.64  rim 2.64  outliers 0.50%
+ok   path          mean 2.27  rim 2.27  outliers 0.16%
+ok   surface       mean 2.52  rim 3.29  outliers 0.10%
+ok   fitted        mean 2.04  rim 1.90  outliers 0.02%
+ok   contained     mean 2.55  rim 2.48  outliers 0.33%
+ok   nosource      fell back to url("#lg1a") url("#lg1")
+ok   foreign       fell back to url("#lg1a") url("#lg1")
+
+safari
+ok   defaults      mean 1.89  rim 1.79  outliers 0.02%
+ok   capsule       mean 2.04  rim 1.75  outliers 0.15%
+ok   circle        mean 1.85  rim 2.13  outliers 0.00%
+ok   nofringe      mean 1.89  rim 1.80  outliers 0.03%
+ok   unsmoothed    mean 4.96  rim 5.93  outliers 1.91%
+ok   strongfringe  mean 2.75  rim 3.27  outliers 0.55%
+ok   dome          mean 2.52  rim 1.47  outliers 0.23%
+ok   applelens     mean 0.95  rim 1.24  outliers 0.00%
+ok   switchlens    mean 1.29  rim 1.34  outliers 0.00%
+ok   frost         mean 1.14  rim 1.53  outliers 0.01%
+ok   regular       mean 0.51  rim 0.55  outliers 0.00%
+ok   clear         mean 0.50  rim 0.89  outliers 0.00%
+ok   regulardark   mean 0.48  rim 0.51  outliers 0.00%
+ok   smallregular  mean 1.04  rim 1.22  outliers 0.00%
+ok   colour        mean 3.01  rim 3.39  outliers 1.15%
+ok   opacity       mean 1.03  rim 1.00  outliers 0.00%
+ok   strength      mean 1.11  rim 1.34  outliers 0.00%
+ok   squircle      mean 2.64  rim 2.64  outliers 0.50%
+ok   path          mean 2.27  rim 2.27  outliers 0.16%
+ok   surface       mean 2.65  rim 3.40  outliers 0.10%
+ok   fitted        mean 2.05  rim 1.91  outliers 0.02%
+ok   contained     mean 2.57  rim 2.50  outliers 0.32%
+ok   nosource      fell back to saturate(1) brightness(1.06)
+ok   foreign       fell back to saturate(1) brightness(1.06)
+
+firefox
+ok   defaults      mean 1.89  rim 1.79  outliers 0.02%
+ok   capsule       mean 2.04  rim 1.75  outliers 0.15%
+ok   circle        mean 1.85  rim 2.13  outliers 0.00%
+ok   nofringe      mean 1.89  rim 1.80  outliers 0.03%
+ok   unsmoothed    mean 4.96  rim 5.93  outliers 1.91%
+ok   strongfringe  mean 2.75  rim 3.27  outliers 0.55%
+ok   dome          mean 2.52  rim 1.47  outliers 0.23%
+ok   applelens     mean 0.95  rim 1.24  outliers 0.00%
+ok   switchlens    mean 1.29  rim 1.34  outliers 0.00%
+ok   frost         mean 1.14  rim 1.53  outliers 0.01%
+ok   regular       mean 0.51  rim 0.55  outliers 0.00%
+ok   clear         mean 0.50  rim 0.89  outliers 0.00%
+ok   regulardark   mean 0.48  rim 0.51  outliers 0.00%
+ok   smallregular  mean 1.04  rim 1.22  outliers 0.00%
+ok   colour        mean 3.01  rim 3.39  outliers 1.15%
+ok   opacity       mean 1.03  rim 1.00  outliers 0.00%
+ok   strength      mean 1.11  rim 1.34  outliers 0.00%
+ok   squircle      mean 2.64  rim 2.64  outliers 0.50%
+ok   path          mean 2.27  rim 2.27  outliers 0.16%
+ok   surface       mean 2.58  rim 3.34  outliers 0.09%
+ok   fitted        mean 2.04  rim 1.90  outliers 0.02%
+ok   contained     mean 2.55  rim 2.48  outliers 0.33%
+ok   nosource      fell back to saturate(1) brightness(1.06)
+ok   foreign       fell back to saturate(1) brightness(1.06)
+
+all passed
