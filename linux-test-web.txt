@@ -1,0 +1,63 @@
+$ pnpm test:web   (Linux x86_64 in a container, Mesa 26.2.7 llvmpipe under Xvfb: Firefox 160.0, WebKitGTK 2.54.2; commit 421bd85)
+firefox
+ok   defaults      mean 1.85  rim 1.33  outliers 0.01%
+ok   capsule       mean 1.96  rim 1.40  outliers 0.12%
+ok   circle        mean 1.85  rim 2.05  outliers 0.00%
+ok   nofringe      mean 1.91  rim 1.80  outliers 0.03%
+ok   unsmoothed    mean 4.90  rim 5.38  outliers 1.88%
+ok   strongfringe  mean 2.72  rim 2.97  outliers 0.49%
+ok   dome          mean 2.55  rim 1.53  outliers 0.26%
+ok   applelens     mean 0.97  rim 1.29  outliers 0.00%
+ok   switchlens    mean 1.31  rim 1.35  outliers 0.00%
+ok   frost         mean 1.14  rim 1.22  outliers 0.01%
+ok   regular       mean 0.52  rim 0.53  outliers 0.00%
+ok   clear         mean 0.68  rim 1.03  outliers 0.00%
+ok   regulardark   mean 0.60  rim 0.64  outliers 0.00%
+ok   smallregular  mean 1.24  rim 1.35  outliers 0.00%
+ok   colour        mean 2.91  rim 2.49  outliers 1.00%
+ok   opacity       mean 1.01  rim 0.78  outliers 0.00%
+ok   strength      mean 1.06  rim 1.18  outliers 0.00%
+ok   squircle      mean 2.64  rim 2.64  outliers 0.48%
+ok   path          mean 2.28  rim 2.28  outliers 0.16%
+ok   surface       mean 2.45  rim 2.62  outliers 0.06%
+ok   fitted        mean 1.94  rim 1.48  outliers 0.00%
+ok   contained     mean 2.54  rim 2.65  outliers 0.37%
+ok   edge          mean 2.68  rim 2.27  outliers 0.39%
+ok   edgefrost     mean 0.45  rim 0.36  outliers 0.00%
+ok   late          mean 1.85  rim 1.33  outliers 0.01%
+ok   retry         mean 2.74  rim 2.53  outliers 0.53%
+ok   replaced      mean 3.16  rim 2.96  outliers 0.33%
+ok   nosource      fell back to saturate(1) brightness(1.06)
+ok   foreign       fell back to saturate(1) brightness(1.06)
+ok   beyond        fell back to blur(8.31px) saturate(1) brightness(1) saturate(2.222) contrast(0.395) brightness(1.331)
+webkitgtk
+ok   defaults      mean 1.86  rim 1.36  outliers 0.01%
+ok   capsule       mean 2.01  rim 1.49  outliers 0.13%
+ok   circle        mean 1.87  rim 2.07  outliers 0.00%
+ok   nofringe      mean 1.94  rim 1.82  outliers 0.04%
+ok   unsmoothed    mean 4.81  rim 5.27  outliers 1.79%
+ok   strongfringe  mean 2.69  rim 2.94  outliers 0.46%
+ok   dome          mean 2.59  rim 1.54  outliers 0.32%
+ok   applelens     mean 0.98  rim 1.29  outliers 0.00%
+ok   switchlens    mean 1.32  rim 1.36  outliers 0.00%
+ok   frost         mean 1.14  rim 1.23  outliers 0.01%
+ok   regular       mean 0.53  rim 0.53  outliers 0.00%
+ok   clear         mean 0.70  rim 1.06  outliers 0.00%
+ok   regulardark   mean 0.62  rim 0.65  outliers 0.00%
+ok   smallregular  mean 1.24  rim 1.35  outliers 0.00%
+ok   colour        mean 2.95  rim 2.58  outliers 1.06%
+ok   opacity       mean 1.02  rim 0.80  outliers 0.00%
+ok   strength      mean 1.06  rim 1.18  outliers 0.00%
+ok   squircle      mean 2.66  rim 2.66  outliers 0.48%
+ok   path          mean 2.27  rim 2.27  outliers 0.15%
+ok   surface       mean 2.48  rim 2.61  outliers 0.06%
+ok   fitted        mean 1.91  rim 1.46  outliers 0.00%
+ok   contained     mean 2.57  rim 2.68  outliers 0.39%
+ok   edge          mean 2.70  rim 2.37  outliers 0.41%
+ok   edgefrost     mean 0.46  rim 0.37  outliers 0.00%
+ok   late          mean 1.86  rim 1.36  outliers 0.01%
+ok   retry         mean 2.77  rim 2.62  outliers 0.55%
+ok   replaced      mean 3.17  rim 3.04  outliers 0.33%
+ok   nosource      fell back to saturate(1) brightness(1.06)
+ok   foreign       fell back to saturate(1) brightness(1.06)
+ok   beyond        fell back to blur(8.31px) saturate(1) brightness(1) saturate(2.222) contrast(0.395) brightness(1.331)
